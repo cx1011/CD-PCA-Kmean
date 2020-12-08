@@ -91,9 +91,6 @@ int main() {
 	}
 
 
-	//res1.at<float>(i, j) = 255;
-	cout << dif_vec5.cols << "-" << dif_vec5.rows << endl;
-	cout << minv << "--" << maxv << endl;
 	imwrite("D:/data/cv/CD/res.png", res1);
 	cvNamedWindow("Í¼Ïñ1-SIFTÌØÕ÷", 1);
 	imshow("Í¼Ïñ1-SIFTÌØÕ÷", res1);
